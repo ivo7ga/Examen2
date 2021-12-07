@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activityDetalles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:collapseColumns=""
+    android:stretchColumns="*">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Enemigo"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageViewSeparator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:src="@android:drawable/divider_horizontal_bright" />
+
+    <TableRow>
+
+        <ListView
+            android:id="@+id/lista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="32dp"
+        android:text="Volver"
+        android:textSize="16dp" />
+
+</TableLayout>
